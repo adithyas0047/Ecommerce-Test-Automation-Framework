@@ -1,4 +1,4 @@
-# SauceDemo Test Automation Framework
+# Ecommerce Test Automation Framework
 
 A robust and scalable Selenium-based test automation framework designed for the [SauceDemo](https://www.saucedemo.com/) e-commerce platform. This project follows the **Page Object Model (POM)** design pattern with **Page Factory** for better maintainability and code reusability.
 
@@ -46,24 +46,29 @@ SauceDemo/
 ## 🏃 How to Run the Tests
 
 ### 1. Clone the Repository
+
 ```bash
 git clone <repository-url>
 cd SauceDemo
 ```
 
 ### 2. Run via Maven
+
 To execute all tests defined in the `testng.xml`:
+
 ```bash
 mvn test
 ```
 
 ### 3. Run via IDE
+
 - Import the project as a **Maven Project** in Eclipse or IntelliJ IDEA.
 - Right-click on `testng.xml` and select **Run As > TestNG Suite**.
 
 ## 📊 Test Reporting
 
 After test execution, a detailed HTML report is generated in the `reports/` directory:
+
 - **File:** `reports/ExtentReport.html`
 
 The report provides a visual representation of test results, including pass/fail status and exception logs for failed tests.
@@ -75,4 +80,5 @@ The report provides a visual representation of test results, including pass/fail
 - **CheckoutTest:** End-to-end flow from product selection to successful order placement.
 
 ---
-*Developed as part of a Selenium Automation Learning Journey.*
+
+_Developed as part of a Selenium Automation Learning Journey._
