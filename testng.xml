@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+
+    <!-- ✅ LISTENERS GO HERE -->
+    <listeners>
+        <listener class-name="tests.TestListener"/>
+    </listeners>
+
+    <test name="Test" thread-count="5">
+        <classes>
+            <class name="tests.CheckoutTest"/>
+            <class name="tests.AddToCartTest"/>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+
+</suite>

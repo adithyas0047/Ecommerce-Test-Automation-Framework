@@ -1,0 +1,10 @@
+/target/
+/test-output/
+/logs/
+*.log
+*.class
+*.jar
+.idea/
+.settings/
+.project
+.classpath
